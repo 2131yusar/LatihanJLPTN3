@@ -471,9 +471,9 @@ const SECTIONS = [
   questions:[
     {n:14, q:'A「来週、試合 ___ ___ ★ ___ んですか。」\nB「すみません。」\n1.何をやっていた　2.練習に来ないで　3.なのに　4.ちっとも',
      tl:"A: 'Minggu depan ada pertandingan, tapi sama sekali tidak datang latihan, maaf ya.' B: 'Maaf.'",
-     kw:"★ = なのに (urutan:来週、試合なのに、練習にちっとも来ないで、何をやっていたんですか。)",
+     kw:"★ = 練習に来ないで (urutan:来週、試合なのに->ちっとも->練習に来ないで->何をやっていたんですか。)",
      opts:["何をやっていた","練習に来ないで","なのに","ちっとも"], ans:1,
-     exp:"✅ Urutan: 試合[練習に来ないで][ちっとも][なのに][何をやっていた]んで。★=なのに(3番)。なのに=padahal, ちっとも=sama sekali (tidak). Makna: padahal ada pertandingan, sama sekali tidak datang latihan."},
+     exp:"✅なのに=padahal, ちっとも=sama sekali (tidak). Makna: padahal ada pertandingan, sama sekali tidak datang latihan."},
     {n:15, q:"あの美術館は曜日 ___ ___ ★ ___ 窓口で確認したほうがいいよ。\n1.閉まる時間　2.違うから　3.によって　4.が",
      tl:"Museum itu jam tutupnya berbeda tergantung hari, jadi lebih baik cek di loket.",
      kw:"★ = が (urutan: 閉まる時間→が→によって→違うから)",
